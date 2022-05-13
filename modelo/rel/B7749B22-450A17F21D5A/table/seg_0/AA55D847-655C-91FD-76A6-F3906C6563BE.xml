@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA55D847-655C-91FD-76A6-F3906C6563BE" name="PERSONA">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:17:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_persona" id="01D80ECE-ADCC-1114-7A82-9A860C6AD9CA">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:37:36 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres_usuario " id="445295E1-0959-9A1C-4028-27F55691551C">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:43:21 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_paterno " id="E71B4DA5-8C02-10B0-20DF-6E14B202D77E">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:43:50 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_materno " id="24B1D402-DFFF-9D76-79C3-5FA7549CCAD0">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:43:50 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86E6C314-E355-02ED-474F-9F37C85EA791" name="USUARIO_PK">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:37:36 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01D80ECE-ADCC-1114-7A82-9A860C6AD9CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

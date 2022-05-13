@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FED07EBB-90BC-3093-8CA7-E9A2F7B4CC20" name="CLIENTE">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:48:46 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_persona" id="E2F5EEBB-1B8A-16BF-E776-80A6A809B41B">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:51:10 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFC7C0F2-0F8C-8188-2C19-2E66BB332658" referredColumn="01D80ECE-ADCC-1114-7A82-9A860C6AD9CA"/>
+</associations>
+</Column>
+<Column name="telefono_contacto " id="FCFE506D-EBD1-F881-730E-8D5EED5BBAB2">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:57:40 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region" id="D490B722-57CF-2A0E-0CE5-BEB55F308FEA">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:57:40 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle_domicilio" id="30DB18E9-C40F-BCAC-7FBC-724E0C96C6F8">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:57:40 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_domicilio" id="4DBD1367-1ACC-274A-3D1B-BDA60B1A8D2B">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:57:40 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apartamento_bloque_piso" id="9C0E731F-F3F6-E6E9-8537-3065C33E7770">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:57:40 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="5CEC0EE0-1442-4836-27F5-E679749C369D">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 03:23:59 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF717AB1-DC03-E6F8-D2F5-7734CB51DC5E" name="CLIENTE_PK">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:51:10 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2F5EEBB-1B8A-16BF-E776-80A6A809B41B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AA865C8-FB86-35F3-6A56-2E7C38E55373" name="CLIENTE_USUARIO_FK">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:58:23 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2F5EEBB-1B8A-16BF-E776-80A6A809B41B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

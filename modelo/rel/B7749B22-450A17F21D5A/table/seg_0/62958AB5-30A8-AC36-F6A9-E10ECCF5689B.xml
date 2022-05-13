@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62958AB5-30A8-AC36-F6A9-E10ECCF5689B" name="PRODUCTO">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 03:35:17 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_producto" id="1A131F24-1977-A7D5-E0E7-6D8B6B662CF1">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 03:36:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_producto" id="5E264180-4B9D-0033-2BA8-43EB9359B3BA">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 03:36:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_producto" id="82C86A4B-DF96-5198-0065-64700F657891">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 03:36:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FFF455F-17C1-ED2B-3715-F1520BC47F53" name="PRODUCTO_PK">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 03:36:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A131F24-1977-A7D5-E0E7-6D8B6B662CF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

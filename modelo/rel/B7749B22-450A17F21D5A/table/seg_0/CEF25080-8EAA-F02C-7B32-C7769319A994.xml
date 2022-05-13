@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CEF25080-8EAA-F02C-7B32-C7769319A994" name="ORDEN">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:59:15 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_orden" id="5309D1F5-0D98-E304-44DC-9FAC019C7013">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 03:58:58 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut_persona" id="887C5A57-FFAE-7667-827A-BD9EE1ADAF45">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 03:00:42 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0DAB03E-9821-3479-0B5E-B6753919E096" referredColumn="01D80ECE-ADCC-1114-7A82-9A860C6AD9CA"/>
+</associations>
+</Column>
+<Column name="descripcion" id="AD969EB5-DE1F-858A-0243-DE246E66DECC">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 03:11:09 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="7D0A00CA-BBCC-6492-0557-418AD6F32E66">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 03:11:09 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_emision" id="11484E37-37E2-BEF4-6150-4BBB9B5FD9B4">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 03:11:09 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D76A8847-873D-7A98-30C8-2530146880E0" name="ORDEN_PK">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 03:58:58 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5309D1F5-0D98-E304-44DC-9FAC019C7013"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFE567CD-29FA-A7E7-6D3D-0744ADB52C12" name="ORDEN_PERSONA_FK">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 03:14:31 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="887C5A57-FFAE-7667-827A-BD9EE1ADAF45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

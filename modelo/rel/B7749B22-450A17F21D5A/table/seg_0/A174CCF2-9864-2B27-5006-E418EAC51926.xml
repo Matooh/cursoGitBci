@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A174CCF2-9864-2B27-5006-E418EAC51926" name="ROL">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:44:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rol" id="BB7CECF2-581A-425C-77F8-AD86FECCF380">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:45:22 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_rol" id="2B4EC84C-EF4D-960F-3A23-5799FD63B377">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:45:22 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EED08DFA-F915-6308-2EE6-87FDFEE589C9" name="ROL_PK">
+<createdBy>mrbet</createdBy>
+<createdTime>2022-05-13 02:46:08 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB7CECF2-581A-425C-77F8-AD86FECCF380"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
